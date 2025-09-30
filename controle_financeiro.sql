@@ -39,3 +39,13 @@ create table log_auditoria(
 -- Index 
 create index idx_id_cliente on clientes(id_cliente);
 create index idx_data_transacao on transacoes(data_transacao);
+
+-- Foreign Keys
+alter table contas
+add constraint fk_contas_id_cliente foreign key (id_cliente) references id_cliente;
+
+alter table transacoes
+add constraint fk_transacoes_id_conta_origem foreign key (id_conta_origem) references id_conta;
+
+alter table transacoes
+add constraint fk_transacoes_id_conta_destino foreign key (id_conta_destino) references id_conta;
