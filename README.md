@@ -2,7 +2,7 @@
 
 Este projeto foi desenvolvido para simular um sistema de controle financeiro com foco em **segurança**, **integridade máxima (ACID)** e **implementação de lógica de negócios** diretamente no banco de dados.  
 
-O objetivo é praticar **modelagem de dados**, **consultas SQL**, **procedimentos armazenados** e **controle transacional**, garantindo consistência no processo de **débito/crédito**.
+O objetivo é praticar **modelagem de dados**, **consultas SQL**, **procedimentos armazenados** e **controle transacional**, garantindo consistência dos dados.
 
 ---
 
