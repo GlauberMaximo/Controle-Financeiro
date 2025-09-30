@@ -71,5 +71,8 @@ O sistema é dividido em **módulos de complexidade crescente**:
 ## ⚙️ Como Executar
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/GlauberMaximo/Controle-Financeiro.git
   
+## 📄 Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
