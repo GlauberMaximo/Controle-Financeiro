@@ -21,7 +21,7 @@ create table transacoes (
 	id_transacao int primary key auto_increment,
     id_conta_origem int, -- FK
     id_conta_destino int, -- FK
-    tipo_transacao varchar(10) not null,
+    tipo_transacao varchar(20) not null,
     valor decimal(10,2) not null,
     data_transacao datetime not null -- Index
 );
@@ -49,3 +49,5 @@ add constraint fk_transacoes_id_conta_origem foreign key (id_conta_origem) refer
 
 alter table transacoes
 add constraint fk_transacoes_id_conta_destino foreign key (id_conta_destino) references contas(id_conta);
+
+ALTER TABLE transacoes MODIFY COLUMN tipo_transacao VARCHAR(20) NOT NULL;
