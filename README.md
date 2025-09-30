@@ -35,7 +35,6 @@ O sistema é dividido em **módulos de complexidade crescente**:
   - `SUBQUERY` para encontrar cliente com menor saldo.
 - **Funções e Normalização**
   - Uso de `ROUND` para formatar valores.
-  - Modelagem em **3FN** para `Clientes` e `Contas`.
 
 ---
 
