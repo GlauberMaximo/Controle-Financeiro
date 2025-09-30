@@ -66,6 +66,8 @@ O sistema é dividido em **módulos de complexidade crescente**:
 - **Glauber Máximo**
 - **Pedro Matos**
 
+---
+
 ## ⚙️ Como Executar
 1. Clone este repositório:
    ```bash
