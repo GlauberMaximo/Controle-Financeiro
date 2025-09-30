@@ -17,7 +17,7 @@ create table contas (
     status varchar(10) not null
 );
 
-create table trasacoes (
+create table transacoes (
 	id_transacao int primary key auto_increment,
     id_conta_origem int, -- FK
     id_conta_destino int, -- FK
@@ -35,3 +35,7 @@ create table log_auditoria(
     valor_anterior varchar(100) not null,
 	usuario_mudanca varchar(50) not null
 );
+
+-- Index 
+create index idx_id_cliente on clientes(id_cliente);
+create index idx_data_transacao on transacoes(data_transacao);
