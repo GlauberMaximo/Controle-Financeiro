@@ -1,7 +1,3 @@
--- ==========================================================
--- POPULAR BANCO DE DADOS DE TESTE: CONTROLE_FINANCEIRO
--- ==========================================================
-
 USE controle_financeiro;
 
 -- ==========================
@@ -65,9 +61,6 @@ FROM clientes;
 -- ==========================
 -- INSERIR 500 TRANSAÇÕES
 -- ==========================
-
--- Exemplo: gerar manualmente algumas, depois usar um loop (em ambiente procedural)
--- Para fins de script direto, simulamos com INSERT ... SELECT + RAND()
 
 DELIMITER $$
 
